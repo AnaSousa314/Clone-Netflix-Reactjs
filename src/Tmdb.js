@@ -19,10 +19,11 @@ const basicFetch = async (endpoint) => {
     return json;
 }
 
-export default{
+
+/* Não se deve colocar o colchete de return abaixo dele, deve ser ao lado, caso contrário dá erro na execução */
+export default {
     getHomeList: async ()=>{
-        return 
-        [
+        return [
             {
                 slug: 'originals',
                 title: 'Originais do Netiflix',
@@ -31,7 +32,7 @@ export default{
             {
                 slug: 'treding',
                 title: 'Recomendados para você',
-                items: await basicFetch(`/trendding/all/week?language=pt-BR&api_key=${API_KEY}`)
+                items: await basicFetch(`/trending/all/week?language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'toprated',
