@@ -12,6 +12,7 @@
 
 .movieRow--listarea{
     overflow-x: hidden;
+    padding-left: 30px;
 }
 
 .movieRow--list{
@@ -20,4 +21,16 @@
 
 .movieRow--item{
     display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.movieRow--item img{
+    width: 100%;
+    transform: scale(0.9);/* separa as imagens, escolhido esta forma para poder criar a animacao de passagem de mouse */
+    transition: all ease 0.2s;
+}
+
+.movieRow--item img:hover{
+    transform: scale(1);/* assim a imagem passa a pegar os 150px, dando o efeito de destaque nela */
 }
