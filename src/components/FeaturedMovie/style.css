@@ -1,0 +1,15 @@
+.featured{
+    height: 100vh;
+}
+
+.featured--vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);/* 'to top' significa que o efeito comeca de cima para baixo. a segunda parte mostra a cor com a porcentagem que ela deixara de cobrir. a terceira parte mostra que tera um efeito de transparencia que comecara a partir de 90% da imagem */
+}
+
+.featured--horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 30%,transparent 70%);
+}
