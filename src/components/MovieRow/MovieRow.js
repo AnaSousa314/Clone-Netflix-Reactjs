@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css';
+/* atalho rfc para montar a carcaca*/
 
 export default ({ title, items }) => {
   return (
