@@ -72,7 +72,7 @@ export default () => {
         <span role="img" aria-label="coração">
           💙
         </span>{" "}
-        pela Ana Sousa
+        pela Ana Sousa, com a ajuda da live do Bonieky Lacerda
         <br />
         Direitos de imagem para Netflix
         <br />
